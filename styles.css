@@ -242,3 +242,151 @@ footer {
   .panel { padding: 18px; }
   .top-nav { display: none; }
 }
+
+
+/* ===== Atualização: apresentação + edição por grupo ===== */
+
+.prof-card {
+  cursor: default;
+}
+
+.prof-card:hover {
+  transform: none;
+}
+
+.card-actions {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.card-actions a {
+  text-align: center;
+}
+
+.btn.edit {
+  background: #7c3aed;
+  color: #fff;
+}
+
+.editor-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.editor-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 8px 22px rgba(20,32,51,.06);
+}
+
+.editor-card h2 {
+  margin-top: 0;
+}
+
+.code-editor {
+  width: 100%;
+  min-height: 650px;
+  resize: vertical;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.45;
+  background: #0f172a;
+  color: #e2e8f0;
+  outline: none;
+}
+
+.code-editor:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,.15);
+}
+
+.editor-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.editor-buttons button,
+.editor-buttons a {
+  border: 0;
+  border-radius: 10px;
+  padding: 11px 10px;
+  font-weight: 700;
+  font-size: .9rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.run-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.download-btn {
+  background: #7c3aed;
+  color: white;
+}
+
+.restore-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.back-btn {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.preview-frame {
+  width: 100%;
+  min-height: 760px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: white;
+}
+
+.save-status {
+  min-height: 22px;
+  margin-top: 8px;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.autosave-note {
+  background: #ecfdf5;
+  border-left: 5px solid #10b981;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 950px) {
+  .editor-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .code-editor {
+    min-height: 420px;
+  }
+
+  .preview-frame {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 560px) {
+  .editor-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

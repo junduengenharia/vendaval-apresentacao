@@ -1,0 +1,28 @@
+ATUALIZAÇÃO — VENDAVAL APRESENTAÇÃO
+
+NOVO FUNCIONAMENTO
+- Página inicial com 5 profissões.
+- Cada grupo tem "Ver apresentação" e "Editar página".
+- O editor roda no celular.
+- O rascunho é salvo automaticamente no próprio navegador/celular.
+- O aluno pode baixar o HTML final.
+- O aluno NÃO altera diretamente o GitHub.
+- O professor continua responsável por publicar a versão final.
+
+ARQUIVOS BAIXADOS POR CADA GRUPO
+bombeiros.html
+engenheiros.html
+defesa-civil.html
+meteorologistas.html
+energia.html
+
+PARA ATUALIZAR O GITHUB
+1. Extraia este ZIP.
+2. Vá ao repositório vendaval-apresentacao.
+3. Faça upload de TODOS os arquivos para a raiz.
+4. Substitua os arquivos existentes quando houver nomes iguais.
+5. Faça Commit changes.
+6. GitHub Pages republicará automaticamente.
+
+A URL E O QR CODE CONTINUAM OS MESMOS:
+https://junduengenharia.github.io/vendaval-apresentacao/
