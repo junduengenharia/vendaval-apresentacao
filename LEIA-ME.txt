@@ -1,0 +1,23 @@
+SITE FINAL — PROFISSÕES NO VENDAVAL
+
+Arquivos:
+- index.html .............. página inicial
+- bombeiros.html .......... Grupo Bombeiros
+- engenheiros.html ........ Grupo Engenheiros
+- defesa-civil.html ....... Grupo Defesa Civil
+- meteorologistas.html .... Grupo Meteorologistas
+- energia.html ............ Grupo Equipe de Energia
+- styles.css .............. aparência de todas as páginas
+
+COMO USAR NO GITHUB PAGES
+1. Envie TODOS os arquivos para a raiz do mesmo repositório.
+2. O GitHub Pages continua apontando para a branch principal e /(raiz).
+3. O endereço principal abrirá index.html.
+4. Cada grupo poderá ser aberto pela página inicial.
+
+IMPORTANTE
+Os alunos que apenas acessam o site pelo celular NÃO alteram os arquivos publicados.
+Para colocar o trabalho final de cada grupo online, edite/substitua o HTML correspondente
+no repositório e faça commit.
+
+Os textos marcados com comentários 'ALTERE AQUI' foram preparados para facilitar a edição.
